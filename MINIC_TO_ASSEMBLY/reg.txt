@@ -1,0 +1,4 @@
+EAX
+EBX
+ECX
+EDX

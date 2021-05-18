@@ -1,0 +1,25 @@
+INCLUDE Irvine32.inc
+.data
+
+a DWORD ?
+b DWORD ?
+c DWORD ?
+i DWORD ?
+
+.code
+main PROC
+	ADD EAX,1
+	ADD EAX,4
+	MOV a,EAX
+	MOV b,5
+	MOV c,5
+	MOV i,0
+startFor_1:
+	CMP i,5
+	JNB  endFor_1
+	MOV b,8
+	INC i
+	JMP startFor_1
+endFor_1:
+main ENDP
+end main

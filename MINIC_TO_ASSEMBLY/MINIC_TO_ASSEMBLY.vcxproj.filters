@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Grammar Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{1b0436fd-6cd9-4352-a6eb-d4023748290a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TXT Files">
+      <UniqueIdentifier>{66ffc1a7-1bf0-41c9-a052-83aa8bdc5876}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Bison Include="grammar.y">
+      <Filter>Grammar Files</Filter>
+    </Bison>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolNodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="grammar.flex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="grammar.tab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReservationTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenAssembly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="STNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolNodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="grammar.tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReservationTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="reg16.txt">
+      <Filter>TXT Files</Filter>
+    </Text>
+    <Text Include="reg32.txt">
+      <Filter>TXT Files</Filter>
+    </Text>
+    <Text Include="reg.txt">
+      <Filter>TXT Files</Filter>
+    </Text>
+    <Text Include="examples.txt">
+      <Filter>TXT Files</Filter>
+    </Text>
+    <Text Include="CProgram.txt">
+      <Filter>TXT Files</Filter>
+    </Text>
+    <Text Include="AssemblyProgram.txt">
+      <Filter>TXT Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="stree.dot">
+      <Filter>Tree</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="stree.dot.gif">
+      <Filter>Tree</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Flex Include="grammar.l">
+      <Filter>Grammar Files</Filter>
+    </Flex>
+  </ItemGroup>
+</Project>
