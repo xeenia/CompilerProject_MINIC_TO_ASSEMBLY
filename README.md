@@ -2,7 +2,7 @@
 # MINIC_TO_ASSEMBLY
 Translate a C program to Assembly.
 --------------------------------------
-* This project was about to create a compiler which will translate a mini C program to Assembly. 
+* In this I created a compiler which translates a mini C program to Assembly. 
 * This project has been written in C++ and with flex/bison and I programmed it in Visual Studio 2019.
 * In order to see this program working you need to write a C program in "CProgram.txt" file and then rebuild.
 * The results will be appeared in "AssemblyProgram.txt"
